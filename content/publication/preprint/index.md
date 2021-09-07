@@ -1,14 +1,8 @@
 ---
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed
-  ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis
-  sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida
-  egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id
-  dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.
-  Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Comparación de herramientas de monitoreo de cambio de uso y cobertura de la tierra alrededor del mundo
 authors:
 - admin
-date: "2019-04-07T00:00:00Z"
+date: "2020-12-07T00:00:00Z"
 doi: ""
 featured: false
 image:
@@ -26,14 +20,13 @@ publication_types:
 - "3"
 publishDate: "2017-01-01T00:00:00Z"
 slides: example
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Comparación de herramientas de monitoreo de cambio de uso y cobertura de la tierra alrededor del mundo.
 tags:
 - Source Themes
-title: An example preprint / working paper
+title: Comparación de herramientas de monitoreo de cambio de uso y cobertura de la tierra alrededor del mundo
 url_code: '#'
 url_dataset: '#'
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_pdf: https://www.ambientico.una.ac.cr/revista-ambientico/comparacion-de-herramientas-de-monitoreo-de-cambio-de-uso-y-cobertura-de-la-tierra-alrededor-del-mundo/
 url_poster: '#'
 url_project: ""
 url_slides: ""
