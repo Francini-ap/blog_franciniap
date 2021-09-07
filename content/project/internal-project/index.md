@@ -8,7 +8,7 @@ slides: example
 summary: Corredor Biológico Interurbano del río María Aguilar (CBIMA)
 tags:
 - Deep Learning
-title: Internal Project
+title: Proyecto Interno:CBIMA
 url_code: ""
 url_pdf: ""
 url_slides: ""
