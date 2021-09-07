@@ -26,7 +26,8 @@ title: Metodología MOCUPP-Urbano
 
 ## Procesos para el mapeo del MOCUPP Urbano
 
-[MOCUPP](https://mocupp.org/) 
+Documentación [MOCUPP](https://mocupp.org/) 
+
 [Documento MOCUPP-Urbano](https://www.cr.undp.org/content/costarica/es/home/library/monitoreo-del-cambio-de-uso-y-cobertura-de-la-tierra-en-paisajes.html) 
 
 1.Delimitación del área de trabajo área de trabajo
