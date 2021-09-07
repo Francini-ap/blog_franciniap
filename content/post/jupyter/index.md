@@ -8,16 +8,13 @@ image:
   focal_point: ""
 lastMod: "2019-09-05T00:00:00Z"
 projects: []
-subtitle: Learn how to blog in Academic using Jupyter notebooks
-summary: Learn how to blog in Academic using Jupyter notebooks
+subtitle: Aprenderemos los pasos para generar el mapeo del MOCUPP-Urbano
+summary: Aprenderemos los pasos para generar el mapeo del MOCUPP-Urbano
 tags: []
-title: Display Jupyter Notebooks with Academic
+title: Metodología MOCUPP-Urbano
 ---
 
-```python
-from IPython.core.display import Image
-Image('https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png')
-```
+
 
 
 
@@ -27,58 +24,18 @@ Image('https://www.python.org/static/community_logos/python-logo-master-v3-TM-fl
 
 
 
-```python
-print("Welcome to Academic!")
-```
+## Procesos para el mapeo del MOCUPP Urbano
 
-    Welcome to Academic!
+[MOCUPP](https://mocupp.org/) 
+[Documento MOCUPP-Urbano](https://www.cr.undp.org/content/costarica/es/home/library/monitoreo-del-cambio-de-uso-y-cobertura-de-la-tierra-en-paisajes.html) 
+
+1.Delimitación del área de trabajo área de trabajo
+2. Selección de la imagen satelital
+3. Procesamiento de la imagen satelital
+4. Clasificación espectral de la imagen satelital 
+5. Depuración de la clasificación espectral
+6. Clasificación del mapeo de la trama verde
+7. Validación del mapeo de trama verde
+8. Publicación de la información
 
 
-## Install Python and JupyterLab
-
-[Install Anaconda](https://www.anaconda.com/distribution/#download-section) which includes Python 3 and JupyterLab.
-
-Alternatively, install JupyterLab with `pip3 install jupyterlab`.
-
-## Create or upload a Jupyter notebook
-
-Run the following commands in your Terminal, substituting `<MY-WEBSITE-FOLDER>` and `<SHORT-POST-TITLE>` with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:
-
-```bash
-mkdir -p <MY-WEBSITE-FOLDER>/content/post/<SHORT-POST-TITLE>/
-cd <MY-WEBSITE-FOLDER>/content/post/<SHORT-POST-TITLE>/
-jupyter lab index.ipynb
-```
-
-The `jupyter` command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.
-
-## Edit your post metadata
-
-The first cell of your Jupter notebook will contain your post metadata ([front matter](https://sourcethemes.com/academic/docs/front-matter/)).
-
-In Jupter, choose _Markdown_ as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter: 
-
-```
----
-title: My post's title
-date: 2019-09-01
-
-# Put any other Academic metadata here...
----
-```
-
-Edit the metadata of your post, using the [documentation](https://sourcethemes.com/academic/docs/managing-content) as a guide to the available options.
-
-To set a [featured image](https://sourcethemes.com/academic/docs/managing-content/#featured-image), place an image named `featured` into your post's folder.
-
-For other tips, such as using math, see the guide on [writing content with Academic](https://sourcethemes.com/academic/docs/writing-markdown-latex/). 
-
-## Convert notebook to Markdown
-
-```bash
-jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
-```
-
-## Example
-
-This post was created with Jupyter. The orginal files can be found at https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter
